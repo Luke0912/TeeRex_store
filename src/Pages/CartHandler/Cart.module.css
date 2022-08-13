@@ -1,0 +1,118 @@
+.name {
+  left: 50px;
+  top: 90px;
+  position: fixed;
+  width: 20%;
+}
+.allDisplay {
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+}
+.Display {
+  margin-left: 130px;
+  box-sizing: border-box;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 2rem;
+}
+.Total {
+  left: 0px;
+  top: 110px;
+  position: fixed;
+  width: 20%;
+}
+@media screen and (max-width: 1000px) {
+  .name {
+    left: 50px;
+    top: 90px;
+    position: fixed;
+    width: 20%;
+  }
+  .allDisplay {
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Display {
+    box-sizing: border-box;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 2rem;
+  }
+  .Total {
+    left: 0px;
+    top: 110px;
+    position: fixed;
+    width: 20%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .name {
+    left: 50px;
+    top: 90px;
+    position: fixed;
+    width: 20%;
+  }
+  .allDisplay {
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Display {
+    margin-left: 110px;
+    box-sizing: border-box;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 2rem;
+  }
+  .Total {
+    left: 0px;
+    top: 110px;
+    position: fixed;
+    width: 20%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .name {
+    left: 50px;
+    top: 90px;
+    position: fixed;
+    width: 20%;
+  }
+  .allDisplay {
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Display {
+    margin-left: 90px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 2rem;
+  }
+  .Total {
+    left: 0px;
+    top: 110px;
+    position: fixed;
+    width: 20%;
+  }
+}

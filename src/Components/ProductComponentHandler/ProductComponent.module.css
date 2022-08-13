@@ -1,0 +1,45 @@
+.Card {
+  margin: 0.1rem;
+  padding: 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image > img {
+  width: 80%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+}
+.desc1 {
+  margin: auto;
+  border: 1px;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  overflow: none;
+}
+.desc2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+}
+.desc3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+.btn {
+  height: 25px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,163 @@
+.Card {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+.image {
+  width: 10%;
+}
+.image > img {
+  margin-top: 0.3rem;
+  width: 100%;
+}
+.desc {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+}
+.desc > h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.qty {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn {
+  font-size: 14px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(249, 242, 242);
+  color: black;
+}
+@media screen and (max-width: 1000px) {
+  .Card {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+  }
+  .image {
+    width: 5%;
+  }
+  .image > img {
+    margin-top: 0.3rem;
+    width: 100%;
+  }
+  .desc {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .desc > h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .qty {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn {
+    font-size: 14px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(249, 242, 242);
+    color: black;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Card {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+  }
+  .image {
+    width: 5%;
+  }
+  .image > img {
+    margin-top: 0.3rem;
+    width: 100%;
+  }
+  .desc {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .desc > h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .qty {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn {
+    font-size: 14px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(249, 242, 242);
+    color: black;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Card {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+  }
+  .image {
+    width: 8%;
+  }
+  .image > img {
+    margin-top: 0.3rem;
+    width: 100%;
+  }
+  .desc {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .desc > h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .qty {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .btn {
+    font-size: 14px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(249, 242, 242);
+    color: black;
+  }
+}

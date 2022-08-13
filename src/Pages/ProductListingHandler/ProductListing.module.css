@@ -1,0 +1,171 @@
+.Main {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 3rem;
+  padding: 0.1rem;
+}
+.search {
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+}
+.box > input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.box > button {
+  height: 25px;
+  width: 30px;
+  border-radius: 5px;
+}
+.selectDiv {
+  width: 220px;
+  margin: auto;
+  border: 0.1rem;
+  padding: 0.1rem;
+  height: inherit;
+  position: fixed;
+  left: 50px;
+  top: 120px;
+}
+.listingDiv {
+  margin-left: 300px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 5%;
+  row-gap: 60px;
+  height: 100%;
+  width: 75%;
+}
+@media screen and (max-width: 1200px) {
+  .listingDiv {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    height: 100%;
+    width: 65%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .listingDiv {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    height: 100%;
+    width: 40%;
+  }
+  .search {
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+  }
+  .box > input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+  .box > button {
+    height: 22px;
+    width: 25px;
+    border-radius: 5px;
+  }
+  .selectDiv {
+    border: 1px solid green;
+    margin: auto;
+    border: 0.1rem;
+    padding: 0.1rem;
+    height: inherit;
+    position: fixed;
+    left: 20px;
+    top: 170px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .listingDiv {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 40px;
+    height: 100%;
+  }
+  .search {
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+  }
+  .box > input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+  .box > button {
+    height: 25px;
+    width: 28px;
+    border-radius: 3px;
+  }
+  .selectDiv {
+    margin: auto;
+    border: 0.1rem;
+    padding: 0.1rem;
+    height: inherit;
+    position: fixed;
+    left: 50px;
+    top: 170px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .selectDiv {
+    margin: auto;
+    border: 0.1rem;
+    padding: 0.1rem;
+    height: inherit;
+    position: fixed;
+    left: 50px;
+    top: 170px;
+  }
+}
