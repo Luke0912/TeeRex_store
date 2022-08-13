@@ -59,11 +59,12 @@ export const productReducer = (state = initialState, { type, payload }) => {
       };
 
     case ActionTypes.SET_FILTER_P:
+      const filteredProductP = state.products.filter(
+        (item) => item.price <= payload.f
+      );
       return {
         ...state,
-        products: payload.s
-          ? state.products.filter((item) => item.price <= payload.f)
-          : state.products,
+        products: payload.s ? filteredProductP : state.backUpProduct,
       };
 
     case ActionTypes.ADJUST_ITEM_QTY:
