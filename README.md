@@ -1,4 +1,4 @@
-#ABOUT THE APP
+#ABOUT THE APP  <br/>
 A simple UI, which allows a customer to do the following: <br/>
 Browse the catalog on a product listing page <br/>
 Each card should have the image, name and price. <br/>
